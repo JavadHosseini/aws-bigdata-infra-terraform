@@ -1,3 +1,14 @@
+terraform {
+   required_version = "~> 1.4.2"
+  cloud {
+    organization = "jeyhosseini"
+
+    workspaces {
+      name = "training-infra"
+    }
+  }
+}
+
 provider "aws" {
   access_key                  = "test"
   secret_key                  = "test"
