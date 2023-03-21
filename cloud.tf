@@ -4,7 +4,7 @@ terraform {
     organization = "jeyhosseini"
 
     workspaces {
-      name = "training-infra"
+      name = "training-infra-dev"
     }
   }
 }
